@@ -69,5 +69,5 @@ Example:
 - **STRING**, **CHAR**: string and character literals
 - **LPAREN**, **RPAREN**, **LBRACE**, **RBRACE**, **SEMICOLON**, **COMMA**: grouping and punctuation symbols
 - **CONSTANTS**: the `const` keyword
-- **UNKNOWN**: any unrecognized symbol
+- **UNKNOWN**: any unrecognized path that is not include 
 
