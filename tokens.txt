@@ -1,0 +1,46 @@
+1       PREPROCESSOR    (line 1): #include <stdio.h>
+2       KEYWORD (line 3): int
+3       IDENTIFIER      (line 3): main
+4       LPAREN  (line 3): (
+5       RPAREN  (line 3): )
+6       LBRACE  (line 3): {
+7       KEYWORD (line 4): int
+8       IDENTIFIER      (line 4): x
+9       OPERATOR        (line 4): =
+10      NUMBER  (line 4): 10
+11      SEMICOLON       (line 4): ;
+12      KEYWORD (line 5): float
+13      IDENTIFIER      (line 5): y
+14      OPERATOR        (line 5): =
+15      FLOAT   (line 5): 20.5
+16      SEMICOLON       (line 5): ;
+17      KEYWORD (line 6): char
+18      IDENTIFIER      (line 6): c
+19      OPERATOR        (line 6): =
+20      CHAR    (line 6): 'A'
+21      SEMICOLON       (line 6): ;
+22      KEYWORD (line 8): if
+23      LPAREN  (line 8): (
+24      IDENTIFIER      (line 8): x
+25      OPERATOR        (line 8): <
+26      IDENTIFIER      (line 8): y
+27      RPAREN  (line 8): )
+28      LBRACE  (line 8): {
+29      IDENTIFIER      (line 9): printf
+30      LPAREN  (line 9): (
+31      STRING  (line 9): "x is less than y\n"
+32      RPAREN  (line 9): )
+33      SEMICOLON       (line 9): ;
+34      RBRACE  (line 10): }
+35      KEYWORD (line 10): else
+36      LBRACE  (line 10): {
+37      IDENTIFIER      (line 11): printf
+38      LPAREN  (line 11): (
+39      STRING  (line 11): "x is not less than y\n"
+40      RPAREN  (line 11): )
+41      SEMICOLON       (line 11): ;
+42      RBRACE  (line 12): }
+43      KEYWORD (line 17): return
+44      NUMBER  (line 17): 0
+45      SEMICOLON       (line 17): ;
+46      RBRACE  (line 18): }
