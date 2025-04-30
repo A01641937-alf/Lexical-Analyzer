@@ -1,4 +1,4 @@
-# Lexical Analyzer in C using Flex (`lexerC.l`)
+# Lexical Analyzer in C using lex (`lexerC.l`)
 
 ## Purpose
 This project implements a **lexical analyzer (scanner)** in C using **lex**. It scans a C/C++ source file and generates a list of recognized *tokens*, such as keywords, operators, identifiers, literals, etc. In other words this lexical analyzer defines the component responsible for breaking down C/C++ source code into tokens, to use them in a **syntax analyzer**.
@@ -12,7 +12,7 @@ This project implements a **lexical analyzer (scanner)** in C using **lex**. It 
 
 ## Requirements
 
-- Flex
+- lex
 - GCC (C compiler)
 - Unix/Linux-based system (tested on a CentOS virtual machine)
 
@@ -20,7 +20,7 @@ This project implements a **lexical analyzer (scanner)** in C using **lex**. It 
 
 1. Open a terminal in the project directory.
 
-2. Generate the C source file from the lexer file using Flex:
+2. Generate the C source file from the lexer file using lex:
 
    ```bash
    lex lexerC.l
