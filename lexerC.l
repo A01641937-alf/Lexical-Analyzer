@@ -4,7 +4,7 @@
 
 FILE *output;
 int token_count = 0;
-int lineno = 1;  // En lugar de yylineno
+int lineno = 1;  
 
 void add_token(const char* type, const char* value) {
     token_count++;
